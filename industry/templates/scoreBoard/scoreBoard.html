@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    </title>
+  </head>
+  <body>
+    <h1>Industry</h1>
+    <h2>Score Board</h2>
+    {% for teams in team_name %}
+    <tr>
+      <td>{{ teams.team_name}}</td>
+      <td>{{ teams.team_score}}</td>
+      <br/>
+    </tr>
+    {% endfor %}
+  </body>
+</html>

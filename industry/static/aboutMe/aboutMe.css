@@ -1,0 +1,31 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+h1 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+h2 {
+  font-weight: 300;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+#backgroundContainer {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding: 5%;
+  }
+#textContainer {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+#developerTitle h2, #designerTitle h2 {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.developerNames, .designerNames {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+}
